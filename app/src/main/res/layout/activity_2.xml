@@ -16,7 +16,7 @@
       tools:layout_editor_absoluteY="16dp" />
 
   <EditText
-      android:id="@+id/editTextTextEmailAddress3"
+      android:id="@+id/edt_email"
       android:layout_width="300dp"
       android:layout_height="50dp"
       android:ems="10"
@@ -26,7 +26,7 @@
       tools:layout_editor_absoluteY="188dp" />
 
   <EditText
-      android:id="@+id/editTextTextPassword3"
+      android:id="@+id/edt_password"
       android:layout_width="300dp"
       android:layout_height="50dp"
       android:ems="10"
@@ -43,14 +43,14 @@
       tools:layout_editor_absoluteY="416dp">
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_login"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Login" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_register"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
